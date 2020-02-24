@@ -17,6 +17,7 @@ body{
 section{
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -51,7 +52,6 @@ section{
 
 figure>img{
   width: 100%;
-  
 }
 
 .btn-header {
@@ -85,13 +85,18 @@ figure>img{
   color: #666;
 }
 
+.article-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
 .article-date-links {
   display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
-  justify-content: space-evenly;
-  background-color: tomato;
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -101,15 +106,14 @@ figure>img{
   align-items: flex-end;
   }
 
-  .article-date {
+.social-btn{
+  border-radius: 50%;
+  border: white;
+}
+
+.article-date {
     float: left;
   }
-
-  .article-text {
-    width: 60%;
-  }
-  
-
 
 footer{
   display: flex;
