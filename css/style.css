@@ -22,7 +22,8 @@ body{
   text-decoration: none;
   text-transform: uppercase;
   color: black;
-  font-family: 'Libre Franklin';
+  /* font-family: 'Libre Franklin'; */
+  font-family: "Franklin Gothic Heavy", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
   font-weight: bolder;
 }
 
@@ -49,6 +50,18 @@ body{
   font-weight: 700;
   line-height: 11px;
   padding: 10px;
+}
+
+.title-container {
+  width: 600px;
+  margin-left: 30%;
+}
+.article-title {
+  text-align: left;
+  font-family: 'georgia';
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 35px;
 }
 
 
