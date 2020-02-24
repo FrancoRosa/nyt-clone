@@ -77,7 +77,38 @@ figure>img{
   font-style: italic;
   font-size: 35px;
 }
+.figcaption-container {
+  width: 65%;
+}
+.figcaption {
+  float: left;
+  color: #666;
+}
 
+.article-date-links {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: tomato;
+  width: 100%;
+}
+
+.article-links-elements {
+  display: flex;
+  list-style: none;
+  align-items: flex-end;
+  }
+
+  .article-date {
+    float: left;
+  }
+
+  .article-text {
+    width: 60%;
+  }
+  
 
 
 footer{
