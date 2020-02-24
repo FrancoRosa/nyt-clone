@@ -1,0 +1,11 @@
+header{
+  background-color: brown;
+  position: sticky;
+  top: 5px;
+}
+
+footer{
+  background-color: brown;
+  position: sticky;
+  bottom: 5px;
+}
