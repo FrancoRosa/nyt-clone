@@ -68,7 +68,7 @@ figure>img{
 
 .title-container {
   width: 600px;
-  margin-left: 30%;
+  
 }
 .article-title {
   text-align: left;
@@ -93,6 +93,10 @@ figure>img{
   width: 50%;
 }
 
+.article-author {
+  width: 100%;
+}
+
 .article-date-links {
   display: flex;
   align-items: center;
@@ -107,15 +111,22 @@ figure>img{
   }
 
 .social-btn{
-  border-radius: 50%;
-  border: white;
+  border-radius: 100%;
+  margin: 5px;
+  /* border: white; */
 }
 
-.article-date {
-    float: left;
-  }
+aside {
+  float: right;
+  background-color: teal;
+
+ 
+}
+
+
 
 footer{
+  clear: both;
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -123,6 +134,8 @@ footer{
   position: sticky;
   bottom: 0;
   border-top: 1px solid grey;
+  font-family: 'Franklin Gothic Heavy';
+
 }
 
 .action{
