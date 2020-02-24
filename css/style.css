@@ -1,3 +1,8 @@
+body{
+  font-size: 16px;
+
+}
+
 .header {
   position: sticky;
   top: 0;
@@ -5,6 +10,8 @@
   justify-content: space-between;
   border-bottom: 1px solid grey;
   align-items: center;
+  padding-bottom: 5px;
+  background: white;
 }
 
 .logo > img {
@@ -14,7 +21,23 @@
 .space-link {
   text-decoration: none;
   text-transform: uppercase;
+  color: black;
+  font-family: 'Libre Franklin';
+  font-weight: bolder;
 }
+
+.search{
+  display: flex;
+  align-items: center;
+}
+
+.search > i, a{
+  padding: 0 10px;
+  font-weight: bolder;
+  font-size: 16px;
+  ;
+}
+
 
 .btn-header {
   background-color: #567b95;
