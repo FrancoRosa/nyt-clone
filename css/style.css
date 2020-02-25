@@ -174,15 +174,44 @@ figure > img{
   color: #333;
 }
 
+.unlock-articles {
+  text-align: center;
+  justify-items: center;
+
+}
+
+.unlock-articles-hr {
+  border: 0.5px solid rgb(226, 226, 226);
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+
+.unlock-articles-text {
+  font-family: "nyt-franklin";
+  font-size: 15px;
+  text-align: center;
+  font-weight: bolder;
+  margin: -10px;
+}
+
+.a-create {
+  text-decoration: none;
+  color: #326891;
+}
+
 .editor-picks {
   position: absolute;
   width: 300px;
-  margin-left: 35%;
-  margin-top: 50%;
+ /*  margin-left: 35%;
+  margin-top: 50%; */
+  left: 35;
+  right: 0;
+  top: 250%; 
 }
 
-hr {
-  border: 0.5px solid rgb(226, 226, 226);;
+.editor-picks-hr {
+  border: 0.5px solid rgb(226, 226, 226);
   width: 280px;
 }
 
