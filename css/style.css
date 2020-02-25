@@ -4,14 +4,18 @@ body{
 }
 
 .header {
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #e2e2e2;
   align-items: center;
-  padding-bottom: 5px;
   background: white;
+  margin-left: -5px;
+  margin-right: -5px;
+  
 }
 
 section{
@@ -22,7 +26,7 @@ section{
 }
 
 .logo > img {
-  width: 180px;
+  width: 190px;
 }
 
 .space-link {
@@ -30,28 +34,44 @@ section{
   text-transform: uppercase;
   color: black;
   /* font-family: 'Libre Franklin'; */
-  font-family: "Franklin Gothic Heavy", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
-  font-weight: bolder;
+  /* font-family: "Franklin Gothic Heavy", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; */
+  font-family: "nyt-franklin";
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  line-height: 19px;
 }
 
 .search{
   display: flex;
-  align-items: center;
+  /* align-items: flex-start; */
+  
 }
 
-.search > i, a{
+.search > i, a {
   padding: 0 10px;
   font-weight: bolder;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .article-image{
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 75%;
 }
 
-figure>img{
+figure > img{
   width: 100%;
+  vertical-align: top;
+}
+
+.buttons {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 15px;
+  
+
 }
 
 .btn-header {
@@ -60,6 +80,7 @@ figure>img{
   border-radius: 3px;
   border: 1px solid #326891;
   text-transform: uppercase;
+  font-family: "nyt-franklin";
   font-size: 11px;
   font-weight: 700;
   line-height: 11px;
@@ -72,17 +93,23 @@ figure>img{
 }
 .article-title {
   text-align: left;
-  font-family: 'georgia';
+  margin-top: 10%;
+  margin-bottom: 10px;
+  font-family: "nyt-cheltenham";
   font-weight: bolder;
   font-style: italic;
-  font-size: 35px;
+  font-size: 40px;
 }
 .figcaption-container {
-  width: 65%;
+  width: 75%;
 }
 .figcaption {
-  float: left;
+  margin-top: 10px;
+  font-family: "nyt-imperial";
   color: #666;
+  font-size: 15px;
+  line-height: 20px;
+  
 }
 
 .article-container{
@@ -90,11 +117,25 @@ figure>img{
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 50%;
+  width: 45%;
 }
 
 .article-author {
   width: 100%;
+  margin: 15px 15px;
+}
+
+.article-author > span {
+  font-family: "nyt-franklin";
+  color: #333;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.article-date {
+  font-family: "nyt-franklin";
+  font-weight: 500;
+  color: #333;
 }
 
 .article-date-links {
@@ -104,16 +145,28 @@ figure>img{
   width: 100%;
 }
 
-.article-links-elements {
-  display: flex;
-  list-style: none;
-  align-items: flex-end;
+.article-links-elements i{
+  font-size: 14px;
+  /* display: flex; */
+  /* align-items: flex-end; */
   }
 
 .social-btn{
   border-radius: 100%;
   margin: 5px;
+  padding: 5px;
+  background-color: #eee;
+  border: 1px solid #eee;
+  width: 30px;
+  height: 30px;
   /* border: white; */
+}
+
+.article-text {
+  font-family: "nyt-imperial";
+  font-size: 20px;
+  line-height: 30px;
+  color: #333;
 }
 
 aside {
@@ -125,26 +178,42 @@ aside {
 
 
 
-footer{
-  clear: both;
+footer {
   display: flex;
-  justify-content: space-between;
-  align-content: center;
+  justify-content: space-around;
+  align-items: center;
   background-color: white;
   position: sticky;
   bottom: 0;
-  border-top: 1px solid grey;
-  font-family: 'Franklin Gothic Heavy';
+  border-top: 1px solid #333;
+  font-family: "nyt-franklin";
+  color: #333;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  margin-right: -5px;
+  margin-left: -5px;
+  
 
+}
+
+.message {
+  margin-left: 10%;
+  font-size: 15px;
 }
 
 .action{
   display: flex;
-  align-content: center;
+  align-items: center;
+  
 }
 
-.action>button{
-  background-color: none;
+.expand {
+  font-size: 12px;
+  font-weight: bolder;
+
+}
+.action button{
+  background: none;
   border: none;
   width: 100px;
 }
