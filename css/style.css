@@ -221,6 +221,56 @@ hr {
   cursor: pointer;
 }
 
+.other-articles{
+  font-family: "nyt-franklin";
+  font-size: 12px;
+  background-image: url("/images/inflation-945.png");
+  background-size: 800px 500px;
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  ". . . ."
+  "art1 art2 art3 art4"
+  ". . . ."
+  "art5 art6 art7 art8"
+  ;
+}
+
+.art1{
+  grid-area: art1;
+}
+
+.art2{
+  grid-area: art2;
+}
+
+.art3{
+  grid-area: art3;
+}
+
+.art4{
+  grid-area: art4;
+}
+
+.art5{
+  grid-area: art5;
+}
+
+.art6{
+  grid-area: art6;
+}
+
+.art7{
+  grid-area: art7;
+}
+
+.art8{
+  grid-area: art8;
+}
 
 
 footer {
