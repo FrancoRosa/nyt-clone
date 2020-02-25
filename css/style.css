@@ -17,6 +17,11 @@ body{
   margin-right: -5px;
   
 }
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 section{
   display: flex;
@@ -169,11 +174,51 @@ figure > img{
   color: #333;
 }
 
-aside {
-  float: right;
-  background-color: teal;
+.editor-picks {
+  position: absolute;
+  width: 300px;
+  margin-left: 35%;
+  margin-top: 50%;
+}
 
- 
+hr {
+  border: 0.5px solid rgb(226, 226, 226);;
+  width: 280px;
+}
+
+.picks-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.picks-container h4 {
+  font-family: "nyt-franklin";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.picks-img {
+  width: 75px;
+  margin: 15px;
+}
+
+.picks-article {
+  display: flex;
+  align-items: center;
+}
+
+.picks-container a {
+  text-decoration: none;
+  color: #333;
+  font-family: "nyt-cheltenham-small";
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: -15px;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 
