@@ -99,6 +99,11 @@ figure > img{
   padding: 10px;
 }
 
+.material-icons{
+  padding: 5px;
+}
+
+
 .comments{
   width: 300px;
 }
@@ -460,8 +465,8 @@ footer {
   font-family: "nyt-franklin" ;
   grid-template-areas: 
   "more-in-space more-popular";
-  margin-left: 80px;
-  margin-right: 80px;
+  /* margin-left: 80px; */
+  /* margin-right: 80px; */
 }
 
 .more-in-space{
@@ -476,9 +481,6 @@ footer {
   height: 1px;
   background-color: #000;
   border: none;
- 
-
-
 }
 
 .more-articles-imgs{
@@ -548,8 +550,8 @@ footer {
 
 .most-popular-links{
   border-top: 1px solid rgb(226, 226, 226);
-  border-bottom: 1px solid rgb(226, 226, 226);
-  padding: 20px;
+  padding-top: 20px;
+  margin-bottom: 0;
   font-family: "nyt-cheltenham";
   font-size: 19px;
   line-height: 18px;
@@ -607,23 +609,48 @@ footer {
 
 .nytimes-icon {
   width: 20px;
+  padding: 5px;
 }
 
 .list-subscribe-link {
   color: #000;
-  display: inline-block;
   font-family: nyt-franklin;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: capitalize;
-  width: 150px;
+  /* width: 150px; */
   font-size: 16px;
   font-weight: 700;
-  height: 25px;
-  line-height: 15px;
-  padding-bottom: 0;
+  /* height: 25px; */
+  /* line-height: 15px; */
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
 }
 
+.ul-subscribe{
+  border-left: 1px solid black;
+}
 
+.list-subscribe-opts{
+  color: #333;
+  padding: 15px;
+  text-decoration: none;
+  font-family: nyt-franklin;
+  font-size: 12px;
+}
 
+.list-subs-hr{
+  width: 85%;
+  height: 1px;
+  background-color: #000;
+  border: none;
+}
 
+.disclaimer-items{
+  display: flex;
+}
+
+.disclaimer-items li{
+  list-style: none;
+}
