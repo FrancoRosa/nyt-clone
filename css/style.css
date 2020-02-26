@@ -470,8 +470,10 @@ footer {
 
 .more-articles-hr {
   width: 85%;
-  border: 1px solid #000;
-  text-align: left;
+  height: 1px;
+  background-color: #000;
+  border: none;
+ 
 
 
 }
