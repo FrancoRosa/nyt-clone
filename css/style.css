@@ -454,7 +454,6 @@ footer {
 }
 
 .more-articles{
-  background-color: gray;
   display: grid;
   grid-template-columns: 70% 30%;
   font-family: "nyt-franklin" ;
@@ -463,13 +462,62 @@ footer {
 }
 
 .more-in-space{
-  background-color: skyblue;
   grid-area: more-in-space;
+  height: 100%;
+}
+
+
+
+.more-articles-hr {
+  width: 85%;
+  border: 1px solid #000;
+  text-align: left;
+
+
 }
 
 .more-articles-imgs{
   display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  
+}
+
+.more-article-caption {
+  text-align: right;
+  color: rgb(153, 153, 153);
+  font-size: 12px;
+  line-height: 16px;
+  /* margin: 3px 15px 0px; */
+}
+
+.article-link a {
+  font-family: "nyt-cheltenham";
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+}
+
+.more-in-space > a {
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+  text-align: left;
+}
+
+.more-in-space h2 {
+  margin-left: 65px;
+}
+
+.more-in-space h3 {
+  margin-left: 65px;
+}
+
+
+.article-link p {
+  color: rgb(153, 153, 153);
+  text-align: left;
+  font-size: small;
 }
 
 .most-popular-links{
@@ -491,7 +539,6 @@ footer {
 }
 
 .more-popular{
-  background-color: lemonchiffon;
   display: flex;
   flex-direction: column;
   grid-area: more-popular;
