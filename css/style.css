@@ -53,7 +53,14 @@ section{
   
 }
 
-.search > i, a {
+.search > a {
+  padding: 0 10px;
+  font-weight: bolder;
+  font-size: 1rem;
+
+}
+
+.search > i {
   padding: 0 10px;
   font-weight: bolder;
   font-size: 1rem;
@@ -223,6 +230,30 @@ figure > img{
 iframe {
   margin-top: 20px;
   margin-bottom: -10px;
+  width: 680px;
+  height: 315px;
+
+}
+
+.img-telescope {
+  margin: 40px 0;
+}
+
+.footnote {
+  font-family: "nyt-franklin";
+  font-size: 16px;
+  line-height: 18px;
+  color: rgb(102, 102, 102);
+  margin: 0px auto 1em;
+}
+
+.footnote a {
+  color: rgb(102, 102, 102);
+  text-decoration: underline;
+  font-family: "nyt-franklin";
+  font-size: 14px;
+  line-height: 16px;
+  
 }
 
 .text-links {
