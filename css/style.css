@@ -97,6 +97,7 @@ figure > img{
   font-weight: 700;
   line-height: 11px;
   padding: 10px;
+  cursor: pointer;
 }
 
 .material-icons{
@@ -212,8 +213,6 @@ figure > img{
 
 .article-links-elements i{
   font-size: 14px;
-  /* display: flex; */
-  /* align-items: flex-end; */
   }
 
 .social-btn{
@@ -224,7 +223,7 @@ figure > img{
   border: 1px solid #eee;
   width: 30px;
   height: 30px;
-  /* border: white; */
+  cursor: pointer;
 }
 
 .article-text {
@@ -274,8 +273,8 @@ iframe {
   font-size: inherit;
   font-weight: inherit;
   cursor: pointer;
-  margin-left: -5px;
-  margin-right: -5px;
+/*   margin-left: -5px;
+  margin-right: -5px; */
 }
 
 .unlock-articles {
@@ -694,7 +693,7 @@ footer {
 .logo-container {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   margin-left: 4.7%;
   margin-right: 4.7%;
   margin-bottom: 20px;
