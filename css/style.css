@@ -34,7 +34,7 @@ figure > img {
   vertical-align: top;
 }
 
-.logo > img {
+.logo > a img {
   width: 190px;
 }
 
