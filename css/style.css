@@ -227,7 +227,6 @@ figure > img {
 }
 
 iframe {
-  frameborder: 0;
   margin-top: 20px;
   margin-bottom: -10px;
   width: 680px;
@@ -597,7 +596,6 @@ footer {
 .ul-subscribe {
   border-left: 1px solid rgb(226, 226, 226);
   margin-bottom: -5px;
-
 }
 
 .ul-subscribe-lang {
