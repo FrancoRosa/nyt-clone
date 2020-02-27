@@ -11,7 +11,7 @@
 
 ## Screenshot
 
-![alt text](https://microverse-students.slack.com/files/UTAAZAM3L/FU7EW6WNN/captura_de_pantalla_2020-02-27_a_la_s__13.02.59.png)
+![Screenshot](https://user-images.githubusercontent.com/52765379/75462748-7b179980-5963-11ea-99a4-9d2f4bd08817.png)
 
 ## Live Demo
 
