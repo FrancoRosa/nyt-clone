@@ -624,12 +624,13 @@ footer {
   /* height: 25px; */
   /* line-height: 15px; */
   padding-bottom: 10px;
+  padding-left: 10px;
   display: flex;
   align-items: center;
 }
 
 .ul-subscribe{
-  border-left: 1px solid black;
+  border-left: 1px solid rgb(226, 226, 226);
 }
 
 .list-subscribe-opts{
@@ -643,14 +644,73 @@ footer {
 .list-subs-hr{
   width: 85%;
   height: 1px;
-  background-color: #000;
+  background-color: rgb(226, 226, 226);;
   border: none;
 }
 
 .disclaimer-items{
   display: flex;
+  justify-content: center;
+  margin: -10px 0 10px 0;
+}
+
+.disclaimer-items ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  
 }
 
 .disclaimer-items li{
   list-style: none;
+}
+
+.disclaimer-link {
+  text-decoration: none;
+  color: #666;
+  font-size: 11px;
+  font-family: "nyt-franklin";
+}
+
+.disclaimer-hr {
+  width: 90%;
+  height: 1px;
+  background-color: rgb(226, 226, 226);
+  border: none;
+}
+
+.bottom-header-hr {
+  width: 90%;
+  height: 1px;
+  background-color: rgb(226, 226, 226);
+  border: none;
+}
+
+.hr2 {
+  margin-top: -7px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-left: 4.7%;
+  margin-right: 4.7%;
+  margin-bottom: 20px;
+ 
+}
+
+.logo-container a {
+  color: #567b95;
+  font-family: "nyt-franklin";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  text-decoration: none;
+}
+
+.logo-container img {
+  width: 180px;
 }
