@@ -363,7 +363,7 @@ iframe {
   color: #000;
   line-height: 17px;
   font-weight: 300;
-  background-image: url("/images/inflation-945.png");
+  background-image: url(../images/inflation-945.png);
   background-size: 800px 500px;
   background-repeat: no-repeat;
   width: 800px;
